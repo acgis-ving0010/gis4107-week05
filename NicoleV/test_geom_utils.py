@@ -8,10 +8,6 @@ YMAX = 4
 def test_is_point_in_box_left_of_box():
     x = 1
     y = 3
-    # xmin = 2
-    # xmax = 4
-    # ymin = 2
-    # ymax = 4
     expected = False
     actual = gu.is_point_in_box(x, y, XMIN, YMIN, XMAX, YMAX)
     assert expected == actual
