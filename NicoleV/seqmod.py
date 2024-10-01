@@ -5,7 +5,7 @@ def mod_sequence(seq, skip_index=None, truncate_index=None):
             if i == truncate_index:
                 break
             else:
-                pass
+                continue
         elif i == truncate_index:
             break
         else:
